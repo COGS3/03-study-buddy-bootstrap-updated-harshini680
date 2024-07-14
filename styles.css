@@ -20,6 +20,7 @@ h3 {
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 1.5;
+  color:darkolivegreen;
 }
 
 p {
@@ -56,6 +57,7 @@ p {
   transform: rotate(20deg);
   position: absolute;
 }
+
 /* Features Section */
 
 #features {
@@ -64,14 +66,17 @@ p {
   position: relative;
   z-index: 1;
 }
-
+.features-para {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:larger;
+}
 .feature-box {
   text-align: center;
   padding: 5%;
 }
 
 .icon {
-  color:cornflowerblue;
+  color:slategrey;
   margin-bottom: 1rem;
 }
 .icon:hover {
@@ -81,7 +86,8 @@ p {
 /* Testimonial Section */
 #testimonials {
   text-align: center;
-  background-color:burlywood;
+  background-color:beige;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .carousel-item{
@@ -96,7 +102,7 @@ p {
 }
 
 #press {
-  background-color:burlywood;
+  background-color:beige;
   text-align: center;
 }
 
@@ -113,10 +119,50 @@ p {
 
 .pricing-header {
   color:black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .pricing-coloumn {
   padding: 3% 2%;
 }
 
+/* Call To Action Section CTA */
+#cta {
+  background-color:beige;
+  color:darkslategrey;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+.social-icon:hover {
+  color:olive;
+}
+
+/* Media Query Section */
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
 /* COGS3 studyBuddy specific styles go here. */
