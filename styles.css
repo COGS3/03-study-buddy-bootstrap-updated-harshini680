@@ -3,7 +3,8 @@ body {
 }
 
 #title {
-  background-color:blanchedalmond;
+  background-color:beige;
+  color:darkslategray;
 }
 
 .container-fluid {
@@ -86,7 +87,7 @@ p {
 /* Testimonial Section */
 #testimonials {
   text-align: center;
-  background-color:beige;
+  background-color:silver;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -102,7 +103,7 @@ p {
 }
 
 #press {
-  background-color:beige;
+  background-color:silver;
   text-align: center;
 }
 
